@@ -1,7 +1,5 @@
 package main
 
-import "struct/binaryTree"
-
 func main() {
 	//root := binaryTree.BiTNode{}
 	//left := binaryTree.BiTNode{}
@@ -12,13 +10,15 @@ func main() {
 	//root.Lchild = &left
 	//root.Rchild = &right
 	//root.Preorder(&root)
-	var a, b, c binaryTree.HuTNode
-	a.Weight = 1
-	a.Value = "a"
-	b.Weight = 2
-	b.Value = "b"
-	c.Value = "c"
-	c.Weight = 3
-	binaryTree.HuffmanEncode([]binaryTree.HuTNode{a, b, c})
+	//var a, b, c binaryTree.HuTNode
+	//a.Weight = 1
+	//a.Value = "a"
+	//b.Weight = 2
+	//b.Value = "b"
+	//c.Value = "c"
+	//c.Weight = 3
+	//binaryTree.HuffmanEncode([]binaryTree.HuTNode{a, b, c})
+	//ls:=[]int{0,2,3,4,8,7,2,5,6,5,5,4,2,6,4}
+	//fmt.Println(sort.Merge(ls))
 
 }
